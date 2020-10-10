@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background: url("images/disneybackground.png") no-repeat;
+	background-color:#245D95;
+	background-repeat:no-repeat;
+	background-size:auto;
+	font-family:'Peddana', serif;
+	font-size: 20px;
+}
+
+header{
+	font-family: 'Stardos Stencil', cursive;
+	text-align: center;
+	color:skyblue;
+	font-size: 20px;
+}
+footer{
+	font-family: 'Stardos Stencil', cursive;
+	text-align: center;
+	color:skyblue;
+	font-size: 20px;
+}
+nav{
+	width:100%;
+	text-align: center;
+}
+nav li{
+	display:inline;	
+}
+nav a:link {
+	font-family:'Peddana', serif;
+  	text-decoration: none;
+  	margin-right: 20px;
+	font-size: 27px;
+}
+
+nav a:hover {
+  color:lightskyblue;
+}
+#wrapper{
+	width:500px;
+	margin:0 auto;
+	clear: both;
+}
+
+#video{
+	float: right;
+}
+
+#form{
+	float: right;
+	font-size:30px;
+}
+
+
